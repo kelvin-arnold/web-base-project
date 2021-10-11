@@ -1,11 +1,16 @@
 import React from "react";
 import Router from "./../router";
 import {AuthProvider} from "./../context/AuthContext";
+import {UILayout, UIContainer} from "./../ui";
 
 function App() {
 	return (
 		<AuthProvider>
-			<Router />
+			<UIContainer>
+				<UILayout>
+					<Router />
+				</UILayout>
+			</UIContainer>
 		</AuthProvider>
 	);
 }

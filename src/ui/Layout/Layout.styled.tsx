@@ -4,6 +4,6 @@ import styled from "styled-components";
 /**
  * Components
  */
-export const AuthSigninWrapper = styled.div.attrs({
-	className: "flex flex-col flex-1 items-start",
+export const LayoutWrapper = styled.div.attrs({
+	className: "flex h-screen justify-center items-center bg-gray-100",
 })``;
