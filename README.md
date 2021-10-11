@@ -1,46 +1,114 @@
-# Getting Started with Create React App
+:unicorm:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto unicornio: GNDI
 
-## Available Scripts
+Um projeto do **NotreDame**
 
-In the project directory, you can run:
+### Equipe
 
-### `yarn start`
+| Nome     | Role        | Contato                      |
+| -------- | ----------- | ---------------------------- |
+| Henrique | Facilitador | henrique.neto@devires.com.br |
+| Kelvin   | Frontend    | kelvin.arnold@devires.com.br |
+| Hada     | Frontend    | hadad@devires.com.br         |
+| Renata   | Designer    | renatad@devires.com.br       |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tecnologias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Definimos quais tecnologias, livrarias e recursos serão utilizados no desenvolvimento do projeto. Os critérios que nos levaram a escolher as seguintes tecnologias seguem tres pontos:
 
-### `yarn test`
+- Curva de aprendizado
+- Comunidades grandes e bem definidas
+- Nivel de conhecimento
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**React**
 
-### `yarn build`
+Nos escolhemos o react como framework principal para o desenvolvimento da plataforma web por ser uma tecnologia que tem uma menor curva de aprendizado por ser um framework popular no mercado e tem uma comunidade bem completa.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Create a New React App - React](https://reactjs.org/docs/create-a-new-react-app.html)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Typescript**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para a tipagem dos componentes de classes do projeto
 
-### `yarn eject`
+[JavaScript With Syntax For Types.](https://www.typescriptlang.org)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Styled component**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Livraria para criação de componentes customizados
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[styled-components](https://styled-components.com)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+**Axios**
 
-## Learn More
+Ferramenta para consumir os serviços api
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[Getting Started](https://axios-http.com/docs/intro)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Tailwind**
+
+Livraria CSS / UI Components para agilizar na criação de componentes e modo responsivo.
+
+[Tailwind UI](https://tailwindui.com)
+
+**Github**
+
+Ferramenta para gestionar e versionar código
+
+[GitHub: Where the world builds software](https://github.com)
+
+**React Router**
+
+Ferramenta para gerencias rotas
+
+[React Router: Declarative Routing for React](https://reactrouter.com)
+
+**Outros tecnologias**
+
+ramda: [https://ramdajs.com](https://ramdajs.com/)
+
+moment: [https://momentjs.com](https://momentjs.com/)
+
+react-hook-form: [https://react-hook-form.com](https://react-hook-form.com/)
+
+yup: [https://github.com/jquense/yup](https://github.com/jquense/yup)
+
+uniqid: [https://www.npmjs.com/package/uniqid](https://www.npmjs.com/package/uniqid)
+
+prettier: [https://prettier.io](https://prettier.io/)
+
+eslint: [https://eslint.org](https://eslint.org/)
+
+Husky: [https://github.com/typicode/husky](https://github.com/typicode/husky)
+
+lint-staged: [https://github.com/okonet/lint-staged](https://github.com/okonet/lint-staged)
+
+commitlint: [https://commitlint.js.org/#/](https://commitlint.js.org/#/)
+
+testing-library: [https://testing-library.com](https://testing-library.com/)
+
+twin.macro: [https://blog.formpl.us/twin-macro-tutorial-for-beginners-styling-with-tailwind-css-and-emotion-in-react-5228c819d713](https://blog.formpl.us/twin-macro-tutorial-for-beginners-styling-with-tailwind-css-and-emotion-in-react-5228c819d713)
+
+classnames: [https://www.npmjs.com/package/classnames](https://www.npmjs.com/package/classnames)
+
+### Scripts
+
+Rodar o seguinte comando para instalar a versão do node  
+`nvm use`
+
+Para instalar todos as livrarias  
+`iyarn nstall:clean`
+
+Para rodar o projeto  
+`yarn start`
+
+Generar um componente  
+`yarn generate:component ui|component|page NAME_COMPONENT`
+
+### Fora do escopo
+
+O que não está contemplado para o desenvolvimento da plataforma
+
+- Suporte 100% para dispositivos mobile
+- i18n: suporte a multiples idiomas
+- Animações complejas

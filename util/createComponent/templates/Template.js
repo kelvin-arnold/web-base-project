@@ -5,6 +5,10 @@ import {${componentName}Wrapper} from "./${componentName}.styled";
 import {${componentName}Props} from "./${componentName}.types";
 
 export const ${componentName}: React.VFC<${componentName}Props> = ({...args}) => {
+	// Context Here
+	// States Here
+	// Effects Here
+	// Handlers Here
   return (
 		<${componentName}Wrapper {...args}>
 			<span>${componentName}</span>

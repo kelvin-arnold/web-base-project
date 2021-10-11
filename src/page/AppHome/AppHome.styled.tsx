@@ -4,4 +4,6 @@ import styled from "styled-components";
 /**
  * Components
  */
-export const AppHomeWrapper = styled.div``;
+export const AppHomeWrapper = styled.div.attrs({
+	className: "flex flex-col flex-1 items-start",
+})``;
